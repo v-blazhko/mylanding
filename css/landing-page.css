@@ -907,3 +907,7 @@ input.form-control, .modal textarea   {
 .emailform {
   display: inline-block !important;
 }
+
+.testimonials .h2 {
+  font-family: 'GothaProBol', 'Lato', Helvetica, sans-serif;
+}
