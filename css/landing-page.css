@@ -827,7 +827,6 @@ input.form-control, .modal textarea   {
   font-family: 'GothaProMed',Helvetica,Arial,sans-serif;
   font-weight: 600;
   vertical-align: middle;
-  margin: auto;
 }
 
 .modal-footer p{
@@ -877,6 +876,7 @@ input.form-control, .modal textarea   {
   justify-content: center;
   align-items: center;
   margin: auto;
+  min-height: 85px;
 }
 
 .partners .container a {
