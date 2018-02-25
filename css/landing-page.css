@@ -871,6 +871,12 @@ input.form-control, .modal textarea   {
   color: rgb(206,206,206);
 }
 
+@media (max-width: 561px) {
+  .partners {
+    display: none;
+  }
+}
+
 .partners .container {
   display: flex;
   padding: 1.1rem;
