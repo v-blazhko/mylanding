@@ -1,6 +1,9 @@
 body {
   font-family: 'GothaProReg', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+.wrapper {
+  overflow-x: hidden !important;
+}
 
 h1,
 h2,
@@ -77,8 +80,14 @@ header.masthead h1 {
 
 @media (max-width: 991px) {
   .bigtext {
-    font-size: 34px;
-    line-height: 48px;
+    max-width: 100% !important;
+    font-size: 40px !important;
+    line-height: 40px !important;
+  }
+
+  .text-left {
+    width: 100%;
+    margin: 5px !important;
   }
 }
 
