@@ -827,6 +827,7 @@ input.form-control, .modal textarea   {
   font-family: 'GothaProMed',Helvetica,Arial,sans-serif;
   font-weight: 600;
   vertical-align: middle;
+  margin: auto;
 }
 
 .modal-footer p{
