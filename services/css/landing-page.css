@@ -1,0 +1,483 @@
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+
+header.masthead {
+  position: relative;
+  background-color: #343a40;
+  background: url("../img/man.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  background-color: #212529;
+  background-size: cover;
+  height: 570px;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+header.masthead h1 {
+  font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+
+}
+
+@media (max-width: 992px) {
+  .menulink a {
+  display: none;
+}
+
+  .menubutton {
+    display:inline;
+  }
+
+  section[class="variable slider"] {
+    display: inline-block;
+  }
+  section[class="features-icons bg-light text-center"] {
+    display: none;
+  }
+}
+
+@media (min-width: 993px) {
+  .menubutton {
+    display:none;
+  }
+ .variable {
+    display: none !important;
+  }
+}
+
+
+@media (max-width: 499px) {
+  .call {
+  display: none;
+}
+}
+
+@media (min-width: 499px) {
+  .calltopline {
+  display: none;
+}
+}
+
+.showcase .showcase-text {
+  padding: 3rem;
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 3.5rem !important;
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 4rem !important;
+  transition: 0.2s ease-out !important;
+}
+
+.boxslide {
+  max-width: 190px;
+}
+
+.testimonials {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.testimonials .testimonial-item {
+  max-width: 18rem;
+}
+
+.testimonials .testimonial-item img {
+  max-width: 12rem;
+  box-shadow: 0px 5px 5px 0px #adb5bd;
+}
+
+.call-to-action {
+  position: relative;
+  background-color: #343a40;
+  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.call-to-action .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+
+.text-blue {
+  color: #0062ff;
+}
+
+
+.header_block .logo {
+    float: left;
+    display: block;
+    width: 100%;
+    max-width: 190px !important;
+    margin-right: 35px;
+    margin-left: 5px;
+}
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+img {
+  box-sizing: inherit;
+  max-width: 100%;
+}
+
+.actbtn {
+  width: 80% !important;
+  border: none !important;
+  margin-bottom: 2rem;
+  border-radius: 0px !important;
+}
+
+
+@font-face {
+    font-family: GothaProReg;
+    src: url(GothaProReg.otf);
+}
+
+
+.menulink a {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  font-family: Helvetica, 'Lato','Helvetica Neue', Arial, sans-serif;
+  text-transform: uppercase;
+  font-kerning: none;
+  color: #666;
+  font-weight: 540;
+}
+
+.menulink a:hover {
+ text-decoration: none !important;
+ color: #007bff;
+
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.topover {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    -webkit-box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.25);
+    flex-wrap: wrap;
+    margin-top: 0px;
+
+}
+
+.under {
+      z-index: 10;
+      position: relative;
+}
+
+.services {
+    top: -170px;
+    z-index: 20;
+    position: relative;
+    padding: 1em;
+    margin-bottom: -170px;
+
+}
+
+.lead {
+  font-size: 1.05rem;
+  font-weight: 300;
+}
+
+.features-icons-item h4 {
+ /* font-size: 0.95rem;*/
+}
+
+.call {
+  color: #21242d;
+  font-weight: 500;
+  /*padding-top: 6px;
+  margin-bottom: 4px;*/
+}
+
+.call a {
+  border-bottom: 1px dashed #007bff;
+}
+.call a:hover {
+  text-decoration: none;
+  color: #007bcc;
+  border-bottom: 1px dashed #007bcc;
+}
+
+.calltopline {
+  background-color: #007bcc;
+  margin:0px;
+  padding-left: 10px;
+  max-height: 2rem;
+  justify-content: flex-start;
+  }
+
+  .calltopline .icon-phone {
+    margin-right: 10px;
+  }
+
+  .calltopline .phone, .calltopline .phone:hover {
+    border-bottom: 1px dashed #fff;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .menubutton a,.menubutton a:hover{
+    font-size: 1.8rem;
+    text-decoration: none;
+  }
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 9999; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 1rem 1rem 1rem 4rem;
+    text-decoration: none;
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: #007bcc;
+    font-kerning: none;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+
+  /*slick*/
+  .slider {
+    width: 80%;
+    margin: 2rem auto;
+  }
+
+  .slick-slide {
+    margin: 0px 20px;
+  }
+
+  .slick-slide img {
+    width: 100%;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    color: black;
+  }
+
+
+  .slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+  }
+
+  .slick-active {
+    opacity: .5;
+  }
+
+  .slick-current {
+    opacity: 1;
+  }
+
+  .boxslide {
+    font-size: 4rem;
+  }
+
+  .slickbox div {
+    max-width: 310px;
+  }
+
+  .slickbox h5 {
+    text-align: center;
+    padding-top: 1rem;
+  }
+  .slickbox h5, .slickbox p {
+    text-align: center;
+  }
+  .h2 {
+    font-kerning: none;
+  }
+
+  .showcase-text h2 {
+    border-bottom: 2px solid #000000;
+  }
+
+
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+p.mb-5 {
+  color: #333 !important;
+  margin-bottom: 2rem  !important;
+  font-size: 1.05rem;
+}
+
+
+.text-left {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 40px;
+    padding-right: 2rem !important;
+    padding-left: 3rem !important;
+    border-radius: 0px;
+}
+
+.link-active {
+  color: #007bff !important;
+} 
+
+.link-active:hover {
+  color: #007bcc !important;
+} 
