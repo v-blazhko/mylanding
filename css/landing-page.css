@@ -59,7 +59,19 @@ header.masthead h1 {
   .actbtn {    
     margin-left: 0px !important;
   }
+
 }
+
+@media (max-width: 768px) {
+  .emailform {
+  margin: 0px !important;
+}
+
+.actbtn {
+  margin: 0px !important;
+}
+}
+
 
 @media (min-width: 768px) {
   header.masthead {
@@ -75,6 +87,10 @@ header.masthead h1 {
   header.masthead h1 {
     font-size: 3rem;
   }
+  .emailform {
+   display: inline-block !important;
+
+}
 
 }
 
@@ -874,4 +890,8 @@ input.form-control, .modal textarea   {
   margin: auto;
   padding: auto;
 
+}
+
+.emailform {
+  display: inline-block !important;
 }
