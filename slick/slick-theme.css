@@ -76,14 +76,14 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+/*
 .slick-prev
 {
-    left: -25px;
-}
+    left: 75px;
+}*/
 [dir='rtl'] .slick-prev
 {
-    right: -25px;
+    right: 75px;
     left: auto;
 }
 .slick-prev:before
@@ -94,15 +94,15 @@
 {
     content: '→';
 }
-
+/*
 .slick-next
 {
-    right: -25px;
-}
+    right: 75px;
+}*/
 [dir='rtl'] .slick-next
 {
     right: auto;
-    left: -25px;
+    left: 75px;
 }
 .slick-next:before
 {
