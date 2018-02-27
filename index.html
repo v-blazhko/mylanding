@@ -13,7 +13,7 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <!--<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">-->
   <link href="css/landing-page.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="./slick/slick.css">
   <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
@@ -32,17 +32,17 @@
 
 
     <!-- Навигация -->
-    <div class="col-12 navbar calltopline"><a href="#" class="phone"><span class="icon-phone"></span>    8 (800) 123-45-67</a></div>
-    <nav class="navbar navbar-light bg-white static-top header_block">
+    <!--<div class="col-12 navbar calltopline"><a href="#" class="phone"><span class="icon-phone"></span>    8 (800) 123-45-67</a></div>-->
+    <nav class="navbar fixed-top navbar-light bg-white static-top header_block">
       <div class="container">
         <a class="navbar-brand logo" href="./"><img src="img/logo.png"></a>
         <div class="menulink"><a href="./"  class="link-active" >О нас</a><a href="./services">Услуги</a><a href="./vacancies">Вакансии</a><a href="./contact">Контакты</a></div>
-        <div class="call"><div class="col-12"><span class="icon-phone"></span>   8 (800) 123-45-67</div><div class="col-12" data-toggle="modal" data-target="#contactModal"><a href="#">Свяжитесь с нами!</a></div></div>
+        <div class="call"><div class="col-12"><span class="icon-phone"></span>   8 (800) 123-45-67</div><div class="col-12" data-toggle="modal" data-target="#contactModal"><a href="tel:+1234567890">Свяжитесь с нами!</a></div></div>
         <div class="menubutton"><a href="#"><span onclick="openNav()" class="icon-menu"></span></a>
         </div>
       </div>
     </nav>
-    <nav class="navbar navbar-light bg-grey static-top header_block nav-bottom">
+    <nav class="navbar navbar-light fixed-top bg-grey static-top header_block nav-bottom">
       <div class="container">
         <a href="#">Ремонтные работы</a>        
         <a href="#">Уборка и клининг</a>
@@ -83,12 +83,10 @@
 
       <section class="partners">
         <div class="container"> 
-          <a>1000+ довольных клиентов</a>
-          <a> Клиент 2 </a>
-          <a> Клиент 3 </a>
-          <a> Клиент 4 </a>
-          <a>Договор найма и подряда</a>
-          <a>100% гарантия выполнения</a>
+          <a><div class="row"><div class="col-xs-6"><i class="icon-like"></i></div><div class="col-xs-6">1000+ довольных<br>клиентов</div></div></a>
+          <a><div class="row"><div class="col-xs-6"><i class="icon-credit-card"></i></div><div class="col-xs-6">Безналичный<br> и наличный расчет</div></div></a>
+          <a><div class="row"><div class="col-xs-6"><i class="icon-note"></i></div><div class="col-xs-6">Работаем <br>по договору</div></div></a>
+          <a class="to-hide"><div class="row"><div class="col-xs-6"><i class="icon-diamond"></i></div><div class="col-xs-6">Гарантированное<br>качество работы</div></div></a>
         </div>
       </section>
 
@@ -355,7 +353,7 @@
                     <div class="container">
                       <div class="row">
                         <div class="col-xl-9 mx-auto">
-                          <h2 class="mb-4">Подпишитесь на нашу рассылку, чтобы не пропустить лучшие предложения и вакансии!</h2>
+                          <h2 class="mb-4">Подпишитесь на нашу рассылку<span class="to-hide">, чтобы не пропустить лучшие предложения и вакансии</span>!</h2>
                         </div>
                         <div class="col-xl-9 mx-auto">
                           <form>
@@ -464,7 +462,6 @@
                         document.getElementById("mySidenav").style.width = "0";
                       }
                     </script>
-                    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
                     <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
 
 
@@ -475,12 +472,16 @@
                       autoplaySpeed: 3000,
                       infinite: true,
                       slidesToScroll: 1,
+                      nextArrow: '<button class="slick-next slick-arrow" type="button" style="display: block;"></button>',
+                      prevArrow: '<button class="slick-prev slick-arrow" type="button" style="display: block;"></button>',
                       dots: true
                     });
 
                      $('.single-item').slick({
                       autoplay: true,
                       autoplaySpeed: 3000,
+                      nextArrow: '<button class="slick-next slick-arrow" type="button" style="display: block;"></button>',
+                      prevArrow: '<button class="slick-prev slick-arrow" type="button" style="display: block;"></button>',
                       dots: true
                     });
 
@@ -493,6 +494,17 @@
                           $(this).addClass("slide");
                         }
                       });
+                    });
+
+
+
+                     $(".partners .container a").on({
+                      mouseenter: function () {
+                        $(this).find( "i" ).css( "color", "#0062ff" );
+                      },
+                      mouseleave: function () {
+                        $(this).find( "i" ).css( "color", "rgb(226,226,226)" );
+                      }
                     });
 
                   </script>
