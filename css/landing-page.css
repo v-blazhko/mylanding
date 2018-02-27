@@ -172,11 +172,11 @@ section[class="variable slider"] {
   margin-top: -35px;
   text-align: justify;
 }
-.slick-next {
+.single-item .slick-next {
 right:18px !important;
 }
 
-.slick-prev {
+.single-item .slick-prev {
 left:15px !important;
 }
 
@@ -393,7 +393,7 @@ background-color: white;
 
 .topover {
 background: #fff;
-border-radius: 4px;
+border-radius: 2px;
 overflow: hidden;
 width: 100%;
 position: relative;
@@ -938,7 +938,7 @@ color: #0062ff;
 .partners i {
   font-size: 35px;
   font-weight: 300;
-  margin: 15px;
+  margin: 0px 15px 20px 0px;
 }
 
 .emailform {
@@ -959,6 +959,14 @@ font-size: 30px !important;
 
 .slick-next {
 right:75px;
+}
+
+.variable .slick-prev {
+left:-15px !important;
+}
+
+.variable .slick-next {
+right:-15px !important;
 }
 
 .slick-prev {
