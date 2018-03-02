@@ -23,10 +23,22 @@ font-weight: 500;
 color: #333;
 }
 
+.btn-primary {
+  background-color: #2196F3; 
+}
+
+.btn-primary {
+  background-color: #2196F3; 
+}
+
+.btn-primary:focus, .btn-primary:active, .btn-primary:hover {
+  background-color: #1976D2; 
+}
+
 header.masthead {
 position: relative;
 background-color: #343a40;
-background: url("../img/girl.jpg") no-repeat center center;
+background: url("../img/girl2.jpg") no-repeat center center;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -68,6 +80,10 @@ header.masthead {
   display: none !important;
 }
 
+.btn-call {
+  right: 40px;
+}
+
 }
 
 @media (max-width: 768px) {
@@ -98,6 +114,11 @@ header.masthead h1 {
  display: inline-block !important;
 
 }
+
+.btn-call {
+  right: 100px;
+}
+
 
 }
 
@@ -171,7 +192,9 @@ section[class="variable slider"] {
 .showcase-text .lead.mb-0 {
   margin-top: -35px;
   text-align: justify;
+  color: #757575;
 }
+
 .single-item .slick-next {
 right:18px !important;
 }
@@ -263,6 +286,11 @@ padding-top: 1rem;
 padding-bottom: 7rem;
 }
 
+.testimonials p {
+  color: #757575;
+  font-size: 15px;
+}
+
 .testimonials .testimonial-item {
 max-width: 18rem;
 }
@@ -301,7 +329,7 @@ padding-bottom: 4rem;
 
 
 .text-blue {
-color: #0062ff;
+color: #2196F3;
 }
 
 
@@ -338,17 +366,11 @@ outline: none !important;
 width: 100% !important;
 margin-bottom: 2rem;
 border-radius: 2px !important;
-outline: none !important;
 margin-left: -18px;
 font-family: 'GothaProMed', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-border: 2px solid transparent;
 font-size: 16px;
 }
 
-.actbtn:active {
-border: none !important;
-outline: none !important;
-}
 
 @font-face {
 font-family: GothaProReg;
@@ -374,7 +396,7 @@ padding-left: 0.5rem;
 padding-right: 0.5rem;
 margin-left: 0.5rem;
 margin-right: 0.5rem;
-font-family: Helvetica, 'Lato','Helvetica Neue', Arial, sans-serif;
+font-family: 'GothaProMed', Helvetica, 'Lato','Helvetica Neue', Arial, sans-serif;
 text-transform: uppercase;
 font-kerning: none;
 color: #666;
@@ -383,7 +405,7 @@ font-weight: 540;
 
 .menulink a:hover {
 text-decoration: none !important;
-color: #007bff;
+color: #2196F3;
 
 }
 
@@ -393,13 +415,13 @@ background-color: white;
 
 .topover {
 background: #fff;
-border-radius: 2px;
+border-radius: 5px;
 overflow: hidden;
 width: 100%;
 position: relative;
--webkit-box-shadow: 1px 7px 27px 9px rgba(0, 80, 209, 0.25);
--moz-box-shadow: 1px 7px 27px 9px rgba(0, 80, 209, 0.25);
-box-shadow: 1px 5px 10px 5px rgba(0, 80, 209, 0.15);
+-webkit-box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.15);
+-moz-box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.15);
+box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.15);
 flex-wrap: wrap;
 margin-top: 0px;
 }
@@ -419,8 +441,9 @@ margin-top: 4em;
 }
 
 .lead {
-font-size: 1.05rem;
+font-size: 15px;
 font-weight: 300;
+color: #757575;
 }
 
 .features-icons-item h4 {
@@ -434,13 +457,15 @@ font-weight: 500;
 margin-bottom: 4px;*/
 justify-content: center;
 text-align: center;
+font-size: 15px;
+font-family: 'GothaProReg', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .call a {
-border-bottom: 1px dashed #007bff;
+border-bottom: 1px dashed #2196F3;
 }
 .call a:focus {
-border-bottom: 1px dashed #007bff;
+border-bottom: 1px dashed #1976D2;
 }
 .call a:hover {
 text-decoration: none;
@@ -467,8 +492,13 @@ color: #ffffff;
 }
 
 .menubutton a,.menubutton a:hover{
-font-size: 1.8rem;
+font-size: 1.6rem;
 text-decoration: none;
+color: #333;
+}
+
+.menubutton {
+  margin-top: 8px;
 }
 
 .sidenav {
@@ -497,7 +527,7 @@ transition: 0.3s;
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-color: #007bff;
+color: #1976D2;
 }
 
 /* Position and style the close button (top right corner) */
@@ -631,7 +661,7 @@ font-family: 'GothaProReg', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-ser
 
 
 .text-left {
-background-color: rgba(255, 255, 255, 0.5);
+background-color: rgba(255, 255, 255, 0.8);
 padding: 40px;
 padding-right: 2rem;
 padding-left: 3rem;
@@ -639,7 +669,7 @@ border-radius: 2px;
 }
 
 .link-active {
-color: #007bff !important;
+color: #2196F3 !important;
 } 
 
 .link-active:hover {
@@ -668,7 +698,7 @@ border-radius: 2px !important;
 }
 
 button.close:hover {
-color: #007bff;
+color: #2196F3;
 }
 
 button.close {
@@ -723,7 +753,7 @@ box-shadow: none;
 border-top: 1px solid #ddd;  
 box-shadow: 0px 4px 13px 0px #49505738;
 z-index: 1030;
-margin-top: 64px !important;
+margin-top: 60px !important;
 }
 
 
@@ -732,7 +762,7 @@ background-color: #eee !important;
 }
 
 .nav-bottom {
-border-top: 1px solid #ddd;
+border-top: 1px solid #ddd !important;
 }
 
 .nav-bottom a {
@@ -744,7 +774,7 @@ padding: 0px 5px 0px 5px;
 }
 
 .nav-bottom a:hover {
-color: #0062ff;
+color: #1976D2;
 cursor: pointer;  
 text-decoration: none;
 }
@@ -775,6 +805,7 @@ transition: 0.3s ease-out;
 }
 
 .features-icons-icon.d-flex {
+  margin-top: 9px;
 }
 
 .services a, .slickbox a{
@@ -792,6 +823,7 @@ justify-content: center;
 
 p.description {
 margin-top: -38px;
+color: #757575;
 }
 .showcase p.description {
 margin-bottom: 2em;
@@ -893,10 +925,14 @@ margin-top: 1rem;
 }
 
 .partners {
-background-color: #666;
+background-color: #737373;
 border:none !important;
-color: rgb(226,226,226);
+color: #fff;
 }
+
+.partners a:hover {
+  text-shadow: rgba(189, 189, 189, 0.8) 0 0 10px;
+} 
 
 @media (max-width: 561px) {
 .partners {
@@ -928,7 +964,7 @@ cursor: pointer;
 }
 
 .partners .container a i:hover {
-color: #0062ff;
+/*color: #1976D2;*/
 }
 
 .partners .container a::after{
@@ -982,4 +1018,53 @@ font-size: 30px !important;
 .slick-next::before {
 color: rgba(45,45,45,.8) !important;
 font-size: 30px !important;
+}
+
+.b-l {
+  border-left: 1px solid #BDBDBD;
+}
+
+.b-r {
+  border-right: 1px solid #BDBDBD;
+}
+
+.b-t {
+  border-top: 1px solid #BDBDBD;
+}
+ 
+.b-b {
+  border-bottom: 1px solid #BDBDBD;
+}
+
+.shinetext {
+  -moz-box-shadow:0 0 10px #000;
+-webkit-box-shadow:0 0 10px #000;
+box-shadow:0 0 10px #fff;
+}
+
+.btn-call {
+  position: fixed;
+  z-index: 1005;
+  bottom: 50px;
+  width: 60px;
+  height: 60px;
+  display: block;
+  background-color: #8BC34A;
+  border-radius: 50%;
+  behavior: url(PIE.htc);
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  vertical-align: center;
+  font-size: 42px;
+  box-shadow: 0 0 7px #636363;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-call:hover {
+  box-shadow: 0 0 14px #636363;  
+  transition: 0.1s ease-out;
+
 }
