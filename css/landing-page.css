@@ -233,7 +233,7 @@ section[class="variable slider"] {
 }
 
 .showcase-text .lead.mb-0 {
-  margin-top: -35px;
+  /*margin-top: -35px;*/
   text-align: justify;
   color: #757575;
 }
@@ -318,7 +318,7 @@ padding: 3rem;
 }
 
 .showcase .showcase-img {
-min-height: 30rem;
+min-height: 23rem;
 background-size: cover;
 }
 
@@ -377,7 +377,7 @@ box-shadow: 0px 5px 5px 0px #adb5bd;
 position: relative;
 background-color:#8BC34A;
 
-background: url("../img/kashier.jpg") no-repeat center center;
+background: url("../img/man3.jpg") no-repeat center center;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
