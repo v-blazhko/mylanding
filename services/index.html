@@ -16,6 +16,7 @@
  <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css">
  <!--<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">-->
  <link href="../css/landing-page.css" rel="stylesheet">
+ <link href="./css/services.css" rel="stylesheet">
 </head>
 
 
@@ -38,7 +39,7 @@
     <nav class="navbar fixed-top navbar-light bg-white static-top header_block">
       <div class="container">
         <a class="navbar-brand logo" href="../"><img src="../img/logo.png"></a>
-        <div class="menulink"><a href="../">О нас</a><a href=".ю/services"  class="link-active">Услуги</a><a href="../vacancies">Вакансии</a><a href="../contact">Контакты</a></div>
+        <div class="menulink"><a href="../">О нас</a><a href="../services"  class="link-active">Услуги</a><a href="../vacancies">Вакансии</a><a href="../contact">Контакты</a></div>
         <div class="call"><div class="col-12"><span class="icon-phone"></span>   8 (800) 123-45-67</div><div class="col-12" data-toggle="modal" data-target="#contactModal"><a href="tel:+1234567890">Свяжитесь с нами!</a></div></div>
         <div class="menubutton"><a><span onclick="openNav()" class="icon-menu"></span></a>
         </div>
@@ -46,12 +47,12 @@
     </nav>
     <nav class="navbar navbar-light fixed-top bg-grey static-top header_block nav-bottom">
       <div class="container">
-        <a href="#">Ремонтные работы</a>        
-        <a href="#">Уборка и клининг</a>
-        <a href="#">Охрана помещений</a>
-        <a href="#">Промоутинг</a>
-        <a href="#">Погрузочные работы</a>  
-        <a href="#">Кухня и приготовление</a>          
+        <a href="../services/example.html">Ремонтные работы</a>        
+        <a href="../services/example.html">Уборка и клининг</a>
+        <a href="../services/example.html">Охрана помещений</a>
+        <a href="../services/example.html">Промоутинг</a>
+        <a href="../services/example.html">Погрузочные работы</a>  
+        <a href="../services/example.html">Кухня и приготовление</a>          
       </div>
     </nav>
 
@@ -61,7 +62,7 @@
       <h2 class="mb-5 text-center mt-5 mx-2">Услуги аутстаффинга</h2>
       <p class="description">Квалифицированный персонал в сферах от клининга до технической поддержки - выберите нужную Вам категорию!</p>
 
-      <button class="btn btn-primary btn-lg"  data-toggle="modal" data-target="#contactModal">Перейти к заказу</button>
+     <!-- <button class="btn btn-primary btn-lg"  data-toggle="modal" data-target="#contactModal">Перейти к заказу</button>-->
       <div class="container topover services">
         <div class="row">
           <div class="col-lg-4 b-r b-b">
@@ -130,6 +131,7 @@
 
                   </div>
                 </section>
+
                 <div class="container div-btn">
                   <div class="text-center col-md-4 offset-md-4">
                     <button class="btn btn-primary btn-lg btn-block"  data-toggle="modal" data-target="#contactModal">Заказать услуги</button>
@@ -137,25 +139,24 @@
                 </div>
 
 
+                <!-- Почему мы -->
+                <section class="showcase">
+                  <div class="container-fluid p-0">
+                    <div class="row no-gutters">
 
-               
-                  <!--Почему мы-->
-                  <section class="why-choose-us">
-                    <div class="bg-white container">
-                      <div class="text-center">
+                      <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('../img/cashier.jpg');"></div>
+                      <div class="col-lg-6 order-lg-1 my-auto showcase-text">
                         <h2>Гарантия качества</h2>
-                        <p class="description">Услуги компании "Аутстаффинг Санкт-Петербург" - гарант качества выполнения работ!</p>
+                        <p class="mb-0 indent">Аутстаффинг Санкт-Петербург — это компания с большим опытом работы в области аутстаффинга. Наши услуги позволяют сократить нагрузку на отдел кадров, значительно снизить юридические и финансовые риски и, следовательно, увеличить выручку вашего предприятия.</p>
+                        <p class="mb-0 indent">При заключении договора аутстаффинга мы сами подберём, обучим и предоставим исполнителей, соответствующих вашим требованиям и проследим за тем, чтобы их документы всегда были в порядке.</p>
                       </div>
-                      <div class="row">
-                        <div class="col-sm-6 img p-4">
-                        </div>
-                        <div class="col-sm-6 p-4">
-                          <p>Аутстаффинг Санкт-Петербург — это компания с большим опытом работы в области аутстаффинга. Наши услуги позволяют сократить нагрузку на отдел кадров, значительно снизить юридические и финансовые риски и, следовательно, увеличить выручку вашего предприятия.</p>
-                          <p>При заключении договора аутстаффинга мы сами подберём, обучим и предоставим исполнителей, соответствующих вашим требованиям и проследим за тем, чтобы их документы всегда были в порядке.</p>
-
-                            <p>Услуги аутстаффинга от нашей компании помогают:
-                              <ul>
-                                <li>
+                    </div>
+                    <div class="row no-gutters">
+                      <div class="col-lg-6 text-white showcase-img" style="background-image: url('../img/cleaner_2.jpg');"></div>
+                      <div class="col-lg-6 my-auto showcase-text">
+                        <h2>Мы помогаем</h2>
+                        <p class="lead mb-0"><ul>
+                          <li>
                             • избежать простоя на производстве, связанного с нехваткой рабочей силы
                           </li>
                           <li>
@@ -164,18 +165,16 @@
                           <li>
                             • в любой момент заменить исполнителя, если он по каким-либо причинам не устраивает вас
                           </li>
-                          </p>
-                        </div>
+                        </ul></p>
                       </div>
                     </div>
-                  </section>
-
-
- <!--Расценки-->
+                  </div>
+                </section>
+                <!--Расценки-->
                 <section class="pricing bg-light">
                   <div class="container">
                     <div class="text-center">
-                      <h2>Цены услуг</h2>
+                      <h2>Расценки услуг</h2>
                       <p class="description">Выберите наиболее удобный план оплаты!</p>
                     </div>
                     <div class="row">
@@ -393,21 +392,21 @@
                       });
                     });
 
-                  $(document).ready(function(){
-                    $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-                      if (this.hash !== "") {
-                        event.preventDefault();
-                        var hash = this.hash;
-                        $('html, body').animate({
-                          scrollTop: $(hash).offset().top
-                        }, 900, function(){
-                          window.location.hash = hash;
-                        });
-                      } 
-                    });
-                  })
-                </script>
-              </div>
-            </body>
+                     $(document).ready(function(){
+                      $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+                        if (this.hash !== "") {
+                          event.preventDefault();
+                          var hash = this.hash;
+                          $('html, body').animate({
+                            scrollTop: $(hash).offset().top
+                          }, 900, function(){
+                            window.location.hash = hash;
+                          });
+                        } 
+                      });
+                    })
+                  </script>
+                </div>
+              </body>
 
-            </html>
+              </html>

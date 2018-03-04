@@ -1200,18 +1200,10 @@ box-shadow:0 0 10px #fff;
   padding-bottom: 45px;
 }
 
-.why-choose-us .col-sm-6 p{
-  text-indent: 1.5em;
+.indent {
+  text-indent: 1.5em !important;
 }
 
-.why-choose-us .img {  
-  min-height: 300px;
-background: url("../img/girl_helmet.png") no-repeat center center;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-}
 
 .btn-more {
   justify-content: center;
