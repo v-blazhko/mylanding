@@ -38,7 +38,7 @@ color: #333;
 header.masthead {
 position: relative;
 background-color: #343a40;
-background: url("../img/girl2.jpg") no-repeat center center;
+background: url("../img/man2.jpg") no-repeat center center;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -48,6 +48,10 @@ padding-bottom: 12rem;
 margin-top: 78px;
 max-height: 570px;
 
+}
+
+.margin-menu {  
+  margin-top: 58px;
 }
 
 header.masthead .overlay {
@@ -81,7 +85,10 @@ header.masthead {
 }
 
 .btn-call {
-  right: 40px;
+  right: 40px;  
+  width: 60px;
+  height: 60px;  
+  font-size: 42px;
 }
 
 }
@@ -116,7 +123,10 @@ header.masthead h1 {
 }
 
 .btn-call {
-  right: 100px;
+  right: 100px;  
+  width: 80px;
+  height: 80px;  
+  font-size: 56px;
 }
 
 
@@ -137,6 +147,10 @@ header.masthead h1 {
 header.masthead {
   padding-top: 5rem !important;
   padding-bottom: 5rem;
+  margin-top: 64px;
+}
+
+.margin-menu {  
   margin-top: 64px;
 }
 }
@@ -160,8 +174,37 @@ header.masthead {
 box-shadow: 0px 4px 13px 0px #49505738;
 }
 
+.b-l {
+  border-left: none;
+
+  border-bottom: 1px solid #BDBDBD;
+}
+
+.b-r {
+  border-right: none;
+
+  border-bottom: 1px solid #BDBDBD;
+}
+
+.b-t {
+  border-top: none;
+
+  border-bottom: 1px solid #BDBDBD;
+}
+ 
+.b-b {  
+  border-bottom: 1px solid #BDBDBD;
+}
+
 section.what-we-offer {
   display: none !important;
+}
+
+.topover {
+box-shadow: none;
+
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
 }
 
 section[class="variable slider"] {
@@ -216,6 +259,31 @@ left:15px !important;
 .slider-hidden {
   display: none;
 }
+
+.topover {
+
+box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.15);
+-webkit-box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.15);
+-moz-box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.15);
+}
+
+.b-l {
+  border-left: 1px solid #BDBDBD;
+}
+
+.b-r {
+  border-right: 1px solid #BDBDBD;
+}
+
+.b-t {
+  border-top: 1px solid #BDBDBD;
+}
+ 
+.b-b {
+  border-bottom: 1px solid #BDBDBD;
+}
+
+
 }
 
 
@@ -231,12 +299,17 @@ left:15px !important;
 .actbtn {
   max-width: 450px;
   width: 70%;
+  border-radius: 2px !important;
 }
 }
 
 @media (min-width: 499px) {
 .calltopline {
   display: none;
+}
+
+.actbtn {
+  border-radius: 0px 2px 2px 0px !important;
 }
 }
 
@@ -302,24 +375,26 @@ box-shadow: 0px 5px 5px 0px #adb5bd;
 
 .call-to-action {
 position: relative;
-background-color: #343a40;
+background-color:#8BC34A;
+
 background: url("../img/kashier.jpg") no-repeat center center;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-padding-top: 7rem;
-padding-bottom: 7rem;
+padding-top: 25px;
+padding-bottom: 25px;
 }
 
 .call-to-action .overlay {
 position: absolute;
-background-color: #212529;
+/*background-color: #212529;
+opacity: 0.3;*/
 height: 100%;
 width: 100%;
 top: 0;
 left: 0;
-opacity: 0.3;
+
 }
 
 footer.footer {
@@ -359,13 +434,14 @@ max-width: 100%;
 font-family: 'GothaProMed', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
 border: 2px solid transparent;
 font-size: 16px;
-border-radius: 2px !important;
+border-radius: 2px;
 outline: none !important;
 }
+
 .actbtn {
 width: 100% !important;
 margin-bottom: 2rem;
-border-radius: 2px !important;
+border-radius: 2px;
 margin-left: -18px;
 font-family: 'GothaProMed', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 font-size: 16px;
@@ -419,9 +495,6 @@ border-radius: 5px;
 overflow: hidden;
 width: 100%;
 position: relative;
--webkit-box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.15);
--moz-box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.15);
-box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.15);
 flex-wrap: wrap;
 margin-top: 0px;
 }
@@ -432,11 +505,12 @@ position: relative;
 }
 
 .services {
+  padding: 2em;
 /*top: -170px;
 z-index: 20;
 position: relative;*/
-padding: 2em;
-margin-top: 4em;
+
+margin-top: 2em;
 
 }
 
@@ -848,11 +922,6 @@ transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 
-.call-to-action h2 {
-color: #fff !important;
-text-align: left;
-}
-
 
 .modal h3 {
 font-size: 30px !important;
@@ -884,7 +953,7 @@ font-size: 14px;
 .formbtn {
 width: auto;
 font-family: 'GothaProMed',Helvetica,Arial,sans-serif;
-font-weight: 600;
+font-weight: 300;
 vertical-align: middle;
 margin: auto;
 }
@@ -1020,21 +1089,6 @@ color: rgba(45,45,45,.8) !important;
 font-size: 30px !important;
 }
 
-.b-l {
-  border-left: 1px solid #BDBDBD;
-}
-
-.b-r {
-  border-right: 1px solid #BDBDBD;
-}
-
-.b-t {
-  border-top: 1px solid #BDBDBD;
-}
- 
-.b-b {
-  border-bottom: 1px solid #BDBDBD;
-}
 
 .shinetext {
   -moz-box-shadow:0 0 10px #000;
@@ -1046,25 +1100,128 @@ box-shadow:0 0 10px #fff;
   position: fixed;
   z-index: 1005;
   bottom: 50px;
-  width: 60px;
-  height: 60px;
   display: block;
   background-color: #8BC34A;
   border-radius: 50%;
   behavior: url(PIE.htc);
-  color: #fff;
+  color: #fff !important;
   text-align: center;
   justify-content: center;
   align-items: center;
   vertical-align: center;
-  font-size: 42px;
   box-shadow: 0 0 7px #636363;
   cursor: pointer;
   text-decoration: none;
+}
+
+.btn-call a, .btn-call a:hove, .btn-call a:active, .btn-call a:focus{
+  cursor: pointer;
+  text-decoration: none !important;
+
+  color: #fff !important;
+}
 }
 
 .btn-call:hover {
   box-shadow: 0 0 14px #636363;  
   transition: 0.1s ease-out;
 
+}
+
+.call-to-action {
+  max-height: 400px;
+}
+
+.link-green {
+  color: #8BC34A !important;
+}
+
+
+.link-green:hover {
+  color: #8BC34A;
+  text-decoration: underline;
+}
+
+
+.services .link-green, .variable .link-green{
+  font-size: 15px;
+  font-family: 'GothaProMed', Helvetica, sans-serif !important;
+  font-weight: 300;
+  padding: 5px;
+  border: 1px solid #8BC34A;
+  border-radius: 2px;
+  text-align: center !important;
+  margin: auto;
+}
+
+
+
+.div-btn {
+  margin-top: -110px;
+  padding: 45px;
+  z-index: 5;
+}
+
+.panel {
+  border-radius: 2px;
+  background-color: #fff;
+  margin: auto auto 25px auto;
+  width: 100%;
+}
+
+.pricing {
+  padding: 60px;
+}
+
+.pricing h3 {
+  padding: 15px;
+}
+
+@media (max-width: 991 ) {
+  .pricing h3 {
+    font-size: 1.5em;
+}
+}
+.pricing .panel-footer {
+  padding: 1rem;
+}
+
+.pricing .panel-heading {
+  background: #BBDEFB;
+}
+
+.panel-footer {
+  border-top: 1px solid #BFBFBF;
+}
+
+
+.why-choose-us  {
+  padding-top: 45px;  
+  padding-bottom: 45px;
+}
+
+.why-choose-us .col-lg-6 p{
+  text-indent: 1.5em;
+}
+
+.why-choose-us .img {  
+  min-height: 300px;
+background: url("../img/girl_helmet.png") no-repeat center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.btn-more {
+  justify-content: center;
+  margin: auto;
+}
+
+
+.slickbox .mt-2 {
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  padding: auto;
 }

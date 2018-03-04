@@ -1,0 +1,28 @@
+header.masthead {
+position: relative;
+background-color: #343a40;
+background: url("../../img/security.jpg") no-repeat center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+padding-top: 12rem;
+padding-bottom: 12rem;
+margin-top: 78px;
+max-height: 500px;
+}
+
+
+@media (max-width: 989px) {
+
+header.masthead {
+  padding-top: 4rem !important;
+  padding-bottom: 5rem;
+  margin-top: 64px;
+}
+
+}
+
+.icon-service-logo {
+	max-width: 150px;
+}
