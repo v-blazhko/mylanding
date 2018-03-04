@@ -1148,8 +1148,8 @@ box-shadow:0 0 10px #fff;
   font-family: 'GothaProMed', Helvetica, sans-serif !important;
   font-weight: 300;
   padding: 5px;
-  border: 1px solid #8BC34A;
-  border-radius: 2px;
+  /*border: 1px solid #8BC34A;
+  border-radius: 2px;*/
   text-align: center !important;
   margin: auto;
 }
@@ -1200,7 +1200,7 @@ box-shadow:0 0 10px #fff;
   padding-bottom: 45px;
 }
 
-.why-choose-us .col-lg-6 p{
+.why-choose-us .col-sm-6 p{
   text-indent: 1.5em;
 }
 
@@ -1225,3 +1225,4 @@ background-size: cover;
   justify-content: center;
   padding: auto;
 }
+
