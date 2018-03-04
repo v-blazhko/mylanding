@@ -1163,19 +1163,30 @@ box-shadow:0 0 10px #fff;
 }
 
 .panel {
-  border-radius: 2px;
+  border-radius: 5px;
   background-color: #fff;
   margin: auto auto 25px auto;
   width: 100%;
+    box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.15);
+  
+}
+.pricing .col-lg-4 {
+  border-radius: 5px;
+
 }
 
-.pricing {
-  padding: 60px;
-}
+
 
 .pricing h3 {
   padding: 15px;
 }
+
+.pricing h2 {
+  padding-top: 45px;
+}
+
 
 @media (max-width: 991 ) {
   .pricing h3 {
@@ -1187,7 +1198,7 @@ box-shadow:0 0 10px #fff;
 }
 
 .pricing .panel-heading {
-  background: #BBDEFB;
+  background: #f2f2f2;
 }
 
 .panel-footer {
