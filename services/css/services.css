@@ -13,6 +13,32 @@ max-height: 500px;
 }
 
 
+header.masthead .security {
+background: url("../../img/security.jpg") no-repeat center center;
+}
+
+header.masthead .remont {
+background: url("../../img/remont.jpg") no-repeat center center;
+}
+
+header.masthead .pogruz {
+background: url("../../img/pogruz.jpg") no-repeat center center;
+}
+
+header.masthead .cleaning {
+background: url("../../img/cleaning.jpg") no-repeat center center;
+}
+
+header.masthead .otdelka {
+background: url("../../img/otdelka.jpg") no-repeat center center;
+}
+
+header.masthead .food {
+background: url("../../img/otdelka.jpg") no-repeat center center;
+}
+
+
+
 @media (max-width: 989px) {
 
 header.masthead {
@@ -41,7 +67,7 @@ header.masthead {
 
 @media (min-width: 768px) {
   .showcase .showcase-text {
-    padding: 0rem 2rem 3rem 5rem;
+    padding: 0rem 2rem 0rem 5rem !important;
   }
 }
 
@@ -58,6 +84,8 @@ showcase-img {
 .showcase-text  {
   text-align: justify;
 }
+
+
 
 }
 
@@ -78,3 +106,6 @@ background-size: cover;
 .showcase-text  {
   line-height: 32px;
 }
+
+
+
