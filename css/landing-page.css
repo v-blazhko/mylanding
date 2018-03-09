@@ -357,6 +357,9 @@ max-height: 500px;
 
 }
 
+.showcase p, .showcase li  {
+  line-height: 32px;
+}
 .showcase .showcase-text {
 padding: 3rem;
 line-height: 32px;
@@ -365,6 +368,7 @@ line-height: 32px;
 .showcase .showcase-img {
 min-height: 8rem;
 background-size: cover;
+border-radius: 2px;
 }
 
 @media (min-width: 768px) {
@@ -1207,9 +1211,9 @@ box-shadow:0 0 10px #fff;
   background-color: #fff;
   margin: auto auto 25px auto;
   width: 100%;
-    box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.15);
-  -webkit-box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.15);
-  -moz-box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.15);
+  box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.1);
   
 }
 .pricing .col-lg-4 {
@@ -1288,4 +1292,22 @@ box-shadow:0 0 10px #fff;
 
 .btn-call a:hover {
   color: #fafafa;
+}
+
+.vacancy {
+  padding: 2rem;
+  border-radius: 2px;
+  margin-bottom: 2rem;
+}
+
+.vacancy h5 {
+  padding-bottom: 1rem;
+}
+
+.vacancy p {
+  color: #555;
+}
+
+.vacancy img {
+box-shadow: 0px 5px 5px 0px #adb5bd;
 }

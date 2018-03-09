@@ -61,7 +61,7 @@ header.masthead {
 }
 
 .showcase .showcase-img {
-  min-height: 30rem;
+  min-height: 20rem;
   background-size: cover;
 }
 
@@ -107,5 +107,9 @@ background-size: cover;
   line-height: 32px;
 }
 
-
+.topover {
+  box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.05);
+}
 
