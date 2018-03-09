@@ -368,7 +368,6 @@ line-height: 32px;
 .showcase .showcase-img {
 min-height: 8rem;
 background-size: cover;
-border-radius: 2px;
 }
 
 @media (min-width: 768px) {
