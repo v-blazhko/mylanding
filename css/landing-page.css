@@ -45,14 +45,10 @@ background: url("../img/man2.jpg") no-repeat center center;
 background-size: cover;
 padding-top: 12rem;
 padding-bottom: 12rem;
-margin-top: 78px;
 max-height: 570px;
-
 }
 
-.margin-menu {  
-  margin-top: 58px;
-}
+
 
 header.masthead .overlay {
 position: absolute;
@@ -68,39 +64,35 @@ header.masthead h1 {
 font-size: 2rem;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 header.masthead {
   margin-top: 0px;
   }
 
 .form-row input {
-  display: none;
+  display: none !important;
 }
 
 .actbtn {    
   margin-left: 0px !important;
+  width: 100%;
 }
 .to-hide {
   display: none !important;
 }
 
 .btn-call {
-  right: 40px;  
-  width: 60px;
-  height: 60px;  
-  font-size: 42px;
+  right: 5%;  
+  width: 50px;
+  height: 50px;  
+  font-size: 32px;  
+  bottom: 5%;
 }
 
-}
-
-@media (max-width: 768px) {
 .emailform {
 margin: 0px !important;
 }
 
-.actbtn {
-margin: 0px !important;
-}
 }
 
 
@@ -111,7 +103,7 @@ header.masthead {
 }
 
 .form-row input {
-  display: inline;
+  display: inline !important;
 }
 
 header.masthead h1 {
@@ -123,20 +115,28 @@ header.masthead h1 {
 }
 
 .btn-call {
-  right: 100px;  
+  right: 70px;  
+  bottom: 50px;  
   width: 80px;
   height: 80px;  
   font-size: 56px;
 }
+.actbtn {
+margin-left: -18px !important;
+}
+}
 
-
+@media (min-width: 768px) and (max-width: 992px) {
+  .actbtn {
+    min-width: 120%;
+  }
 }
 
 @media (max-width: 991px) {
 .bigtext {
   max-width: 100% !important;
-  font-size: 40px !important;
-  line-height: 40px !important;
+  font-size: 40px;
+  line-height: 40px;
 }
 
 .text-left {
@@ -149,12 +149,23 @@ header.masthead {
   padding-bottom: 5rem;
   margin-top: 64px;
 }
+  .margin-menu {  
+  margin-top: 36px;
+} 
 
-.margin-menu {  
-  margin-top: 64px;
-}
 }
 
+@media only screen 
+and (min-width : 300px) and (max-width : 330px) {
+  .navbar {
+    padding-left: .5rem !important;
+  }
+
+  .bigtext {
+    font-size: 36px;
+    line-height: 36px;
+  }
+}
 
 
 @media (max-width: 992px) {
@@ -246,10 +257,31 @@ right:18px !important;
 left:15px !important;
 }
 
-
 }
 
+@media (max-width: 992px) and (min-width: 499px) {
+
+header.masthead {
+padding-top: 5rem;
+padding-bottom: 5rem;
+max-height: 500px;
+margin-top: 64px;
+}
+}
+
+
 @media (min-width: 993px) {
+.margin-menu {  
+  margin-top: 58px;
+}
+
+header.masthead {
+padding-top: 8rem;
+padding-bottom: 12rem;
+max-height: 570px;
+margin-top: 78px;
+}
+
 .menubutton {
   display:none;
 }
@@ -283,8 +315,14 @@ box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.15);
   border-bottom: 1px solid #BDBDBD;
 }
 
+.bigtext {
+  font-size: 50px;
+  line-height: 60px;
+}
+
 
 }
+
 
 
 @media (max-width: 499px) {
@@ -298,8 +336,13 @@ box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.15);
 }
 .actbtn {
   max-width: 450px;
-  width: 70%;
   border-radius: 2px !important;
+}
+
+header.masthead {
+padding-top: 7rem;
+padding-bottom: 7rem;
+max-height: 500px;
 }
 }
 
@@ -311,20 +354,22 @@ box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.15);
 .actbtn {
   border-radius: 0px 2px 2px 0px !important;
 }
+
 }
 
 .showcase .showcase-text {
 padding: 3rem;
+line-height: 32px;
 }
 
 .showcase .showcase-img {
-min-height: 23rem;
+min-height: 8rem;
 background-size: cover;
 }
 
 @media (min-width: 768px) {
 .showcase .showcase-text {
-  padding: 7rem;
+  padding: 4rem;
 }
 }
 
@@ -439,10 +484,8 @@ outline: none !important;
 }
 
 .actbtn {
-width: 100% !important;
 margin-bottom: 2rem;
 border-radius: 2px;
-margin-left: -18px;
 font-family: 'GothaProMed', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 font-size: 16px;
 }
@@ -810,8 +853,6 @@ color: #333;
 
 .bigtext {
 font-family: 'GothaProBol', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-font-size: 50px;
-line-height: 60px;
 font-weight: 700;
 }
 
@@ -1099,7 +1140,6 @@ box-shadow:0 0 10px #fff;
 .btn-call {
   position: fixed;
   z-index: 1005;
-  bottom: 50px;
   display: block;
   background-color: #8BC34A;
   border-radius: 50%;
@@ -1229,3 +1269,23 @@ box-shadow:0 0 10px #fff;
   padding: auto;
 }
 
+#map {
+  width: 100%;
+  min-height: 200px;
+}
+
+.contacts h3 {
+  padding: 0rem 0rem 1.5rem 0rem;
+}
+
+.contacts p {
+  line-height: 30px;
+}
+
+.btn-call a {
+  color: #fff;
+}
+
+.btn-call a:hover {
+  color: #fafafa;
+}
