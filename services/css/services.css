@@ -61,7 +61,7 @@ header.masthead {
 }
 
 .showcase .showcase-img {
-  min-height: 20rem;
+  min-height: 24rem;
   background-size: cover;
 }
 
@@ -85,16 +85,7 @@ showcase-img {
   text-align: justify;
 }
 
-
-
 }
-
-
-.showcase .showcase-img {
-max-height: 18rem;
-background-size: cover;
-}
-
 
 .showcase-text h2 {
     border-bottom: none;

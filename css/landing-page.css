@@ -639,8 +639,7 @@ transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 .sidenav a {
 padding: 1rem 1rem 1rem 4rem;
 text-decoration: none;
-font-family: Helvetica,  'Lato', 'Helvetica Neue', Arial, sans-serif;
-text-transform: uppercase;
+font-family: 'GothaProReg', Helvetica,  'Lato', 'Helvetica Neue', Arial, sans-serif;
 color: #666;
 display: block;
 transition: 0.3s;
@@ -1211,9 +1210,9 @@ box-shadow:0 0 10px #fff;
   background-color: #fff;
   margin: auto auto 25px auto;
   width: 100%;
-  box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 1px 7px 27px 9px rgba(0, 0, 0, 0.15);
   
 }
 .pricing .col-lg-4 {
